@@ -34,9 +34,6 @@ AI-Powered Chat Assistant for Manufacturing Analytics
 
 📦 oee-360/ ├── app.py # Main Streamlit app ├── utils.py # All utility functions (OEE calc, data load, Gemini parsing) ├── data/ │ └── oee_data.xlsx # Default synthetic dataset ├── .env # Your Gemini API Key (not committed) ├── requirements.txt # Python dependencies └── README.md # Project documentation
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -46,9 +43,6 @@ The app computes OEE using the standard formula:
 
 OEE = Availability × Performance × Quality
 
-yaml
-Copy
-Edit
 
 Where:
 
@@ -62,33 +56,21 @@ Where:
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/oee-360.git
 cd oee-360
-2. Install Dependencies
-bash
-Copy
-Edit
+
+###2. Install Dependencies
 pip install -r requirements.txt
-3. Add Your Gemini API Key
-Create a .env file and add your API key:
 
-env
-Copy
-Edit
+###3. Add Your Gemini API Key
+Create a secret.toml file and add your API key:
 GEMINI_API_KEY=your_gemini_api_key_here
-Or set it in your environment:
 
-bash
-Copy
-Edit
-export GEMINI_API_KEY=your_gemini_api_key_here
-4. Run the App
-bash
-Copy
-Edit
+###4. Run the App
 streamlit run app.py
-📝 Example Queries
+
+
+##📝 Example Queries
 "OEE for PKG-005 in Mumbai in January 2025"
 
 "How did PKG-015 perform in Hyderabad last July?"
