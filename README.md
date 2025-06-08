@@ -68,36 +68,3 @@ GEMINI_API_KEY=your_gemini_api_key_here
 streamlit run app.py
 
 
-##📝 Example Queries
-"OEE for PKG-005 in Mumbai in January 2025"
-
-"How did PKG-015 perform in Hyderabad last July?"
-
-"Show performance of PKG-010 in Chennai for March 2024"
-
-🧪 Demo Screenshot
-Add a screenshot here of your app running once available
-
-🤝 Built For
-This project was developed as part of an internship initiative for NTT DATA showcasing real-time analytics, IoT integration, and GenAI capabilities.
-
-🛠️ Future Improvements
-Add time-series graphs for trends.
-
-Export reports as PDF/Excel.
-
-Add more GenAI features (e.g., anomaly detection).
-
-Enable real-time sensor data ingestion.
-
-📄 License
-MIT License — free for personal and educational use.
-
-🙌 Acknowledgements
-NTT Data
-
-Streamlit
-
-Google Gemini
-
-Plotly
